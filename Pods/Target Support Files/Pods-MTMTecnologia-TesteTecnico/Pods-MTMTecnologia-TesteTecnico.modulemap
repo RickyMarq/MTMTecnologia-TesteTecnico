@@ -1,0 +1,6 @@
+framework module Pods_MTMTecnologia_TesteTecnico {
+  umbrella header "Pods-MTMTecnologia-TesteTecnico-umbrella.h"
+
+  export *
+  module * { export * }
+}

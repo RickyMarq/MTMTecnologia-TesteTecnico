@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1A59A92A7FC2F5001A6676 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A59A82A7FC2F5001A6676 /* UIButton+Extension.swift */; };
+		1D1A59AC2A8000D4001A6676 /* UIString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A59AB2A8000D4001A6676 /* UIString+Extension.swift */; };
+		1D2533352A7C160200FBEEDA /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533342A7C160200FBEEDA /* OnboardingController.swift */; };
+		1D2533372A7C162100FBEEDA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533362A7C162100FBEEDA /* OnboardingView.swift */; };
+		1D25333A2A7C17C300FBEEDA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533392A7C17C300FBEEDA /* TabBarController.swift */; };
+		1D25333D2A7C1B4300FBEEDA /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25333C2A7C1B4300FBEEDA /* HomeCell.swift */; };
+		1D2533402A7C1DFC00FBEEDA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25333F2A7C1DFC00FBEEDA /* UIView+Extension.swift */; };
+		1D2533432A7C1ECE00FBEEDA /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533422A7C1ECE00FBEEDA /* HomeService.swift */; };
+		1D2533452A7C226000FBEEDA /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533442A7C226000FBEEDA /* HomeModel.swift */; };
+		1D2533482A7C289E00FBEEDA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533472A7C289E00FBEEDA /* HomeViewModel.swift */; };
+		1D25334A2A7C315E00FBEEDA /* HomeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533492A7C315E00FBEEDA /* HomeCellViewModel.swift */; };
+		1D25334F2A7C53BB00FBEEDA /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25334E2A7C53BB00FBEEDA /* CharacterController.swift */; };
+		1D2533522A7C54C900FBEEDA /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533512A7C54C900FBEEDA /* CharacterViewModel.swift */; };
+		1D2533552A7C559300FBEEDA /* CharacterItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2533542A7C559300FBEEDA /* CharacterItemView.swift */; };
+		1D6FF8812A7C8845005AFBA8 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FF8802A7C8845005AFBA8 /* OnboardingCell.swift */; };
+		1D6FF8832A7C8AD2005AFBA8 /* OnboardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FF8822A7C8AD2005AFBA8 /* OnboardingDataModel.swift */; };
+		1D6FF8862A7C8B29005AFBA8 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FF8852A7C8B29005AFBA8 /* OnboardingViewModel.swift */; };
+		1D6FF88B2A7D2404005AFBA8 /* OnboardingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FF88A2A7D2404005AFBA8 /* OnboardingCellViewModel.swift */; };
+		1D6FF8912A7D65C1005AFBA8 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FF8902A7D65C1005AFBA8 /* HomeService.swift */; };
+		1D6FF8952A7D700C005AFBA8 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FF8942A7D700C005AFBA8 /* HomeViewModelTests.swift */; };
+		1DA1B95D2A7F15F200DC91DA /* HomeControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA1B95C2A7F15F200DC91DA /* HomeControllerTests.swift */; };
+		1DE372142A7C132E00062EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE372132A7C132E00062EBE /* AppDelegate.swift */; };
+		1DE372162A7C132E00062EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE372152A7C132E00062EBE /* SceneDelegate.swift */; };
+		1DE372182A7C132E00062EBE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE372172A7C132E00062EBE /* HomeController.swift */; };
+		1DE3721D2A7C133100062EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE3721C2A7C133100062EBE /* Assets.xcassets */; };
+		1DE372202A7C133100062EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE3721E2A7C133100062EBE /* LaunchScreen.storyboard */; };
+		1DE372442A7C144C00062EBE /* ViewCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE372432A7C144B00062EBE /* ViewCodeManager.swift */; };
+		1DE3724D2A7C14FE00062EBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3724C2A7C14FE00062EBE /* HomeView.swift */; };
+		1DE788652A7D7F3B00F1C117 /* MTMTWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788642A7D7F3B00F1C117 /* MTMTWatchApp.swift */; };
+		1DE788672A7D7F3B00F1C117 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788662A7D7F3B00F1C117 /* HomeView.swift */; };
+		1DE788692A7D7F3E00F1C117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE788682A7D7F3E00F1C117 /* Assets.xcassets */; };
+		1DE7886C2A7D7F3E00F1C117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7886B2A7D7F3E00F1C117 /* Preview Assets.xcassets */; };
+		1DE7886F2A7D7F3E00F1C117 /* MTMTWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1DE788622A7D7F3B00F1C117 /* MTMTWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DE788772A7D81E400F1C117 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788762A7D81E400F1C117 /* HomeModel.swift */; };
+		1DE788792A7D85A800F1C117 /* CharacterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788782A7D85A800F1C117 /* CharacterScreen.swift */; };
+		1DE7887F2A7DAA3B00F1C117 /* AgradecimentosScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7887E2A7DAA3B00F1C117 /* AgradecimentosScreen.swift */; };
+		1DE788842A7DB9E700F1C117 /* WebServiceWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788832A7DB9E700F1C117 /* WebServiceWatch.swift */; };
+		1DE788862A7DBD1E00F1C117 /* CharacterItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788852A7DBD1E00F1C117 /* CharacterItemScreen.swift */; };
+		1DE788892A7E856500F1C117 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788882A7E856500F1C117 /* Color+Extension.swift */; };
+		1DE788A12A7F00F800F1C117 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE788A02A7F00F800F1C117 /* Alerts.swift */; };
+		44679BA776AFFE44338C4CA6 /* Pods_MTMTecnologia_TesteTecnicoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731FA47F02684ECDE912BC5 /* Pods_MTMTecnologia_TesteTecnicoTests.framework */; };
+		899B5F7D3D4ED8C1F683CDB1 /* Pods_MTMTecnologia_TesteTecnico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9DCB5700C583039E11477E /* Pods_MTMTecnologia_TesteTecnico.framework */; };
+		D36C41F397EB89E013BF2425 /* Pods_MTMTWatch_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868C2539CC0DD9FAE0A9AFDC /* Pods_MTMTWatch_Watch_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE372272A7C133200062EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE372082A7C132E00062EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE3720F2A7C132E00062EBE;
+			remoteInfo = "MTMTecnologia-TesteTecnico";
+		};
+		1DE7886D2A7D7F3E00F1C117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE372082A7C132E00062EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE788612A7D7F3A00F1C117;
+			remoteInfo = "MTMTWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DE788702A7D7F3E00F1C117 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1DE7886F2A7D7F3E00F1C117 /* MTMTWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AE2BFF6AC8351F3B9562B42 /* Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests/Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		143688A672F614B397479F87 /* Pods-MTMTWatch Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTWatch Watch App.release.xcconfig"; path = "Target Support Files/Pods-MTMTWatch Watch App/Pods-MTMTWatch Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		1731FA47F02684ECDE912BC5 /* Pods_MTMTecnologia_TesteTecnicoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTMTecnologia_TesteTecnicoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1A59A82A7FC2F5001A6676 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1D1A59AB2A8000D4001A6676 /* UIString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIString+Extension.swift"; sourceTree = "<group>"; };
+		1D2533342A7C160200FBEEDA /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		1D2533362A7C162100FBEEDA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1D2533392A7C17C300FBEEDA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1D25333C2A7C1B4300FBEEDA /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		1D25333F2A7C1DFC00FBEEDA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1D2533422A7C1ECE00FBEEDA /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		1D2533442A7C226000FBEEDA /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		1D2533472A7C289E00FBEEDA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1D2533492A7C315E00FBEEDA /* HomeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellViewModel.swift; sourceTree = "<group>"; };
+		1D25334E2A7C53BB00FBEEDA /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
+		1D2533512A7C54C900FBEEDA /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		1D2533542A7C559300FBEEDA /* CharacterItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemView.swift; sourceTree = "<group>"; };
+		1D6FF8802A7C8845005AFBA8 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		1D6FF8822A7C8AD2005AFBA8 /* OnboardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDataModel.swift; sourceTree = "<group>"; };
+		1D6FF8852A7C8B29005AFBA8 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		1D6FF88A2A7D2404005AFBA8 /* OnboardingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCellViewModel.swift; sourceTree = "<group>"; };
+		1D6FF8902A7D65C1005AFBA8 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		1D6FF8942A7D700C005AFBA8 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		1DA1B95C2A7F15F200DC91DA /* HomeControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerTests.swift; sourceTree = "<group>"; };
+		1DE372102A7C132E00062EBE /* MTMTecnologia-TesteTecnico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTMTecnologia-TesteTecnico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE372132A7C132E00062EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DE372152A7C132E00062EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DE372172A7C132E00062EBE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		1DE3721C2A7C133100062EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DE3721F2A7C133100062EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DE372212A7C133100062EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE372262A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTMTecnologia-TesteTecnicoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE372432A7C144B00062EBE /* ViewCodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodeManager.swift; sourceTree = "<group>"; };
+		1DE3724C2A7C14FE00062EBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1DE788622A7D7F3B00F1C117 /* MTMTWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTMTWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE788642A7D7F3B00F1C117 /* MTMTWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMTWatchApp.swift; sourceTree = "<group>"; };
+		1DE788662A7D7F3B00F1C117 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1DE788682A7D7F3E00F1C117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DE7886B2A7D7F3E00F1C117 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DE788762A7D81E400F1C117 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		1DE788782A7D85A800F1C117 /* CharacterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterScreen.swift; sourceTree = "<group>"; };
+		1DE7887E2A7DAA3B00F1C117 /* AgradecimentosScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgradecimentosScreen.swift; sourceTree = "<group>"; };
+		1DE788832A7DB9E700F1C117 /* WebServiceWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceWatch.swift; sourceTree = "<group>"; };
+		1DE788852A7DBD1E00F1C117 /* CharacterItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemScreen.swift; sourceTree = "<group>"; };
+		1DE788882A7E856500F1C117 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1DE788A02A7F00F800F1C117 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		35807DFF8BA79D899C7BC57A /* Pods-MTMTecnologia-TesteTecnicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTecnologia-TesteTecnicoTests.debug.xcconfig"; path = "Target Support Files/Pods-MTMTecnologia-TesteTecnicoTests/Pods-MTMTecnologia-TesteTecnicoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3586C6D75F311948B85D2C27 /* Pods-MTMTecnologia-TesteTecnico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTecnologia-TesteTecnico.release.xcconfig"; path = "Target Support Files/Pods-MTMTecnologia-TesteTecnico/Pods-MTMTecnologia-TesteTecnico.release.xcconfig"; sourceTree = "<group>"; };
+		4D9DCB5700C583039E11477E /* Pods_MTMTecnologia_TesteTecnico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTMTecnologia_TesteTecnico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D1541F45D69E621E7C2A8B /* Pods-MTMTecnologia-TesteTecnico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTecnologia-TesteTecnico.debug.xcconfig"; path = "Target Support Files/Pods-MTMTecnologia-TesteTecnico/Pods-MTMTecnologia-TesteTecnico.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF1AC8E1798001DE2F2DD79 /* Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.release.xcconfig"; path = "Target Support Files/Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests/Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		868C2539CC0DD9FAE0A9AFDC /* Pods_MTMTWatch_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTMTWatch_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA2489FBBD30ED113B6F865 /* Pods_MTMTecnologia_TesteTecnico_MTMTecnologia_TesteTecnicoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTMTecnologia_TesteTecnico_MTMTecnologia_TesteTecnicoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7384C29B7A41BCADE318A13 /* Pods-MTMTecnologia-TesteTecnicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTecnologia-TesteTecnicoTests.release.xcconfig"; path = "Target Support Files/Pods-MTMTecnologia-TesteTecnicoTests/Pods-MTMTecnologia-TesteTecnicoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E16F4F34F18B17D2B4831312 /* Pods-MTMTWatch Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMTWatch Watch App.debug.xcconfig"; path = "Target Support Files/Pods-MTMTWatch Watch App/Pods-MTMTWatch Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE3720D2A7C132E00062EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899B5F7D3D4ED8C1F683CDB1 /* Pods_MTMTecnologia_TesteTecnico.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE372232A7C133200062EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44679BA776AFFE44338C4CA6 /* Pods_MTMTecnologia_TesteTecnicoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE7885F2A7D7F3A00F1C117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36C41F397EB89E013BF2425 /* Pods_MTMTWatch_Watch_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1A59AA2A7FDC92001A6676 /* HomeService */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FF8902A7D65C1005AFBA8 /* HomeService.swift */,
+			);
+			path = HomeService;
+			sourceTree = "<group>";
+		};
+		1D1A59AD2A8018D0001A6676 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533442A7C226000FBEEDA /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D1A59AE2A801919001A6676 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FF8822A7C8AD2005AFBA8 /* OnboardingDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D2533382A7C17AA00FBEEDA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533392A7C17C300FBEEDA /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1D25333B2A7C1B2900FBEEDA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1D25333C2A7C1B4300FBEEDA /* HomeCell.swift */,
+				1DE7889E2A7EB6CD00F1C117 /* ViewModel */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1D2533412A7C1EBF00FBEEDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533422A7C1ECE00FBEEDA /* HomeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D6FF87F2A7C8827005AFBA8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7889F2A7EBBC000F1C117 /* ViewModel */,
+				1D6FF8802A7C8845005AFBA8 /* OnboardingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1D6FF8932A7D6FF0005AFBA8 /* HomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FF8942A7D700C005AFBA8 /* HomeViewModelTests.swift */,
+				1DA1B95C2A7F15F200DC91DA /* HomeControllerTests.swift */,
+			);
+			path = HomeTests;
+			sourceTree = "<group>";
+		};
+		1D6FF8962A7D7D14005AFBA8 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788A02A7F00F800F1C117 /* Alerts.swift */,
+				1DE372432A7C144B00062EBE /* ViewCodeManager.swift */,
+				1DE3721E2A7C133100062EBE /* LaunchScreen.storyboard */,
+				1DE3721C2A7C133100062EBE /* Assets.xcassets */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		1DE372072A7C132E00062EBE = {
+			isa = PBXGroup;
+			children = (
+				1DE372122A7C132E00062EBE /* MTMTecnologia-TesteTecnico */,
+				1DE788632A7D7F3B00F1C117 /* MTMTWatch Watch App */,
+				1DE372112A7C132E00062EBE /* Products */,
+				74C25825F7CE50B54AC63D75 /* Pods */,
+				FDE6F1C3D2DE6B4084AD5C7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE372112A7C132E00062EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE372102A7C132E00062EBE /* MTMTecnologia-TesteTecnico.app */,
+				1DE372262A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests.xctest */,
+				1DE788622A7D7F3B00F1C117 /* MTMTWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE372122A7C132E00062EBE /* MTMTecnologia-TesteTecnico */ = {
+			isa = PBXGroup;
+			children = (
+				1DE372462A7C149700062EBE /* AppDelegate */,
+				1D6FF8962A7D7D14005AFBA8 /* Extras */,
+				1DE372452A7C146500062EBE /* Extension */,
+				1D2533412A7C1EBF00FBEEDA /* Services */,
+				1DE7889D2A7EAF9000F1C117 /* Feature */,
+				1DE372212A7C133100062EBE /* Info.plist */,
+				1DE372292A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests */,
+			);
+			path = "MTMTecnologia-TesteTecnico";
+			sourceTree = "<group>";
+		};
+		1DE372292A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A59AA2A7FDC92001A6676 /* HomeService */,
+				1D6FF8932A7D6FF0005AFBA8 /* HomeTests */,
+			);
+			path = "MTMTecnologia-TesteTecnicoTests";
+			sourceTree = "<group>";
+		};
+		1DE372452A7C146500062EBE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D25333F2A7C1DFC00FBEEDA /* UIView+Extension.swift */,
+				1D1A59A82A7FC2F5001A6676 /* UIButton+Extension.swift */,
+				1D1A59AB2A8000D4001A6676 /* UIString+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1DE372462A7C149700062EBE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1DE372132A7C132E00062EBE /* AppDelegate.swift */,
+				1DE372152A7C132E00062EBE /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1DE3724B2A7C14E900062EBE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D25333B2A7C1B2900FBEEDA /* Cell */,
+				1D1A59AD2A8018D0001A6676 /* Model */,
+				1DE788902A7EA6BB00F1C117 /* ViewModel */,
+				1DE788912A7EA6FA00F1C117 /* View */,
+				1DE7888F2A7EA6AF00F1C117 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1DE788632A7D7F3B00F1C117 /* MTMTWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788642A7D7F3B00F1C117 /* MTMTWatchApp.swift */,
+				1DE788752A7D81D200F1C117 /* Model */,
+				1DE788872A7E854C00F1C117 /* Extensions */,
+				1DE788822A7DB9D200F1C117 /* WebServiceWatch */,
+				1DE7887A2A7D880900F1C117 /* HomeScreen */,
+				1DE7887B2A7D881300F1C117 /* CharacterScreen */,
+				1DE7888A2A7E8AB200F1C117 /* CharacterItemScreen */,
+				1DE7888B2A7E8ACB00F1C117 /* AgradecimentosScreen */,
+				1DE788682A7D7F3E00F1C117 /* Assets.xcassets */,
+				1DE7886A2A7D7F3E00F1C117 /* Preview Content */,
+			);
+			path = "MTMTWatch Watch App";
+			sourceTree = "<group>";
+		};
+		1DE7886A2A7D7F3E00F1C117 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7886B2A7D7F3E00F1C117 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DE788752A7D81D200F1C117 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788762A7D81E400F1C117 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DE7887A2A7D880900F1C117 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788662A7D7F3B00F1C117 /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		1DE7887B2A7D881300F1C117 /* CharacterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788782A7D85A800F1C117 /* CharacterScreen.swift */,
+			);
+			path = CharacterScreen;
+			sourceTree = "<group>";
+		};
+		1DE788822A7DB9D200F1C117 /* WebServiceWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788832A7DB9E700F1C117 /* WebServiceWatch.swift */,
+			);
+			path = WebServiceWatch;
+			sourceTree = "<group>";
+		};
+		1DE788872A7E854C00F1C117 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788882A7E856500F1C117 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DE7888A2A7E8AB200F1C117 /* CharacterItemScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788852A7DBD1E00F1C117 /* CharacterItemScreen.swift */,
+			);
+			path = CharacterItemScreen;
+			sourceTree = "<group>";
+		};
+		1DE7888B2A7E8ACB00F1C117 /* AgradecimentosScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7887E2A7DAA3B00F1C117 /* AgradecimentosScreen.swift */,
+			);
+			path = AgradecimentosScreen;
+			sourceTree = "<group>";
+		};
+		1DE7888F2A7EA6AF00F1C117 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DE372172A7C132E00062EBE /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DE788902A7EA6BB00F1C117 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533472A7C289E00FBEEDA /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DE788912A7EA6FA00F1C117 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3724C2A7C14FE00062EBE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DE788942A7EA95A00F1C117 /* CharacaterItem */ = {
+			isa = PBXGroup;
+			children = (
+				1DE788972A7EAA2600F1C117 /* ViewModel */,
+				1DE788952A7EA97600F1C117 /* View */,
+				1DE788962A7EA98800F1C117 /* Controller */,
+			);
+			path = CharacaterItem;
+			sourceTree = "<group>";
+		};
+		1DE788952A7EA97600F1C117 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533542A7C559300FBEEDA /* CharacterItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DE788962A7EA98800F1C117 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D25334E2A7C53BB00FBEEDA /* CharacterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DE788972A7EAA2600F1C117 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533512A7C54C900FBEEDA /* CharacterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DE788992A7EAE9A00F1C117 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FF87F2A7C8827005AFBA8 /* Cell */,
+				1D1A59AE2A801919001A6676 /* Model */,
+				1DE7889C2A7EAEB800F1C117 /* ViewModel */,
+				1DE7889B2A7EAEB300F1C117 /* View */,
+				1DE7889A2A7EAEAD00F1C117 /* Controller */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1DE7889A2A7EAEAD00F1C117 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533342A7C160200FBEEDA /* OnboardingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DE7889B2A7EAEB300F1C117 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533362A7C162100FBEEDA /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DE7889C2A7EAEB800F1C117 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FF8852A7C8B29005AFBA8 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DE7889D2A7EAF9000F1C117 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533382A7C17AA00FBEEDA /* TabBar */,
+				1DE3724B2A7C14E900062EBE /* Home */,
+				1DE788942A7EA95A00F1C117 /* CharacaterItem */,
+				1DE788992A7EAE9A00F1C117 /* Onboarding */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		1DE7889E2A7EB6CD00F1C117 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D2533492A7C315E00FBEEDA /* HomeCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DE7889F2A7EBBC000F1C117 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FF88A2A7D2404005AFBA8 /* OnboardingCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74C25825F7CE50B54AC63D75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E16F4F34F18B17D2B4831312 /* Pods-MTMTWatch Watch App.debug.xcconfig */,
+				143688A672F614B397479F87 /* Pods-MTMTWatch Watch App.release.xcconfig */,
+				51D1541F45D69E621E7C2A8B /* Pods-MTMTecnologia-TesteTecnico.debug.xcconfig */,
+				3586C6D75F311948B85D2C27 /* Pods-MTMTecnologia-TesteTecnico.release.xcconfig */,
+				0AE2BFF6AC8351F3B9562B42 /* Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.debug.xcconfig */,
+				6DF1AC8E1798001DE2F2DD79 /* Pods-MTMTecnologia-TesteTecnico-MTMTecnologia-TesteTecnicoUITests.release.xcconfig */,
+				35807DFF8BA79D899C7BC57A /* Pods-MTMTecnologia-TesteTecnicoTests.debug.xcconfig */,
+				B7384C29B7A41BCADE318A13 /* Pods-MTMTecnologia-TesteTecnicoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDE6F1C3D2DE6B4084AD5C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868C2539CC0DD9FAE0A9AFDC /* Pods_MTMTWatch_Watch_App.framework */,
+				4D9DCB5700C583039E11477E /* Pods_MTMTecnologia_TesteTecnico.framework */,
+				AEA2489FBBD30ED113B6F865 /* Pods_MTMTecnologia_TesteTecnico_MTMTecnologia_TesteTecnicoUITests.framework */,
+				1731FA47F02684ECDE912BC5 /* Pods_MTMTecnologia_TesteTecnicoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE3720F2A7C132E00062EBE /* MTMTecnologia-TesteTecnico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE3723A2A7C133200062EBE /* Build configuration list for PBXNativeTarget "MTMTecnologia-TesteTecnico" */;
+			buildPhases = (
+				08A274D2365F47A81D38B90C /* [CP] Check Pods Manifest.lock */,
+				1DE3720C2A7C132E00062EBE /* Sources */,
+				1DE3720D2A7C132E00062EBE /* Frameworks */,
+				1DE3720E2A7C132E00062EBE /* Resources */,
+				1DE788702A7D7F3E00F1C117 /* Embed Watch Content */,
+				214E44145BBE0642605DC1C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE7886E2A7D7F3E00F1C117 /* PBXTargetDependency */,
+			);
+			name = "MTMTecnologia-TesteTecnico";
+			productName = "MTMTecnologia-TesteTecnico";
+			productReference = 1DE372102A7C132E00062EBE /* MTMTecnologia-TesteTecnico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DE372252A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE3723D2A7C133200062EBE /* Build configuration list for PBXNativeTarget "MTMTecnologia-TesteTecnicoTests" */;
+			buildPhases = (
+				3BB946B58A300B024DB6FD34 /* [CP] Check Pods Manifest.lock */,
+				1DE372222A7C133200062EBE /* Sources */,
+				1DE372232A7C133200062EBE /* Frameworks */,
+				1DE372242A7C133200062EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE372282A7C133200062EBE /* PBXTargetDependency */,
+			);
+			name = "MTMTecnologia-TesteTecnicoTests";
+			productName = "MTMTecnologia-TesteTecnicoTests";
+			productReference = 1DE372262A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DE788612A7D7F3A00F1C117 /* MTMTWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE788732A7D7F3E00F1C117 /* Build configuration list for PBXNativeTarget "MTMTWatch Watch App" */;
+			buildPhases = (
+				120B2DEBE027EBD5775BA1A4 /* [CP] Check Pods Manifest.lock */,
+				1DE7885E2A7D7F3A00F1C117 /* Sources */,
+				1DE7885F2A7D7F3A00F1C117 /* Frameworks */,
+				1DE788602A7D7F3A00F1C117 /* Resources */,
+				C924E23FB5334B9AAF79E7BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTMTWatch Watch App";
+			productName = "MTMTWatch Watch App";
+			productReference = 1DE788622A7D7F3B00F1C117 /* MTMTWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE372082A7C132E00062EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1DE3720F2A7C132E00062EBE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1DE372252A7C133200062EBE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1DE3720F2A7C132E00062EBE;
+					};
+					1DE788612A7D7F3A00F1C117 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1DE3720B2A7C132E00062EBE /* Build configuration list for PBXProject "MTMTecnologia-TesteTecnico" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE372072A7C132E00062EBE;
+			productRefGroup = 1DE372112A7C132E00062EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE3720F2A7C132E00062EBE /* MTMTecnologia-TesteTecnico */,
+				1DE372252A7C133200062EBE /* MTMTecnologia-TesteTecnicoTests */,
+				1DE788612A7D7F3A00F1C117 /* MTMTWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE3720E2A7C132E00062EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE372202A7C133100062EBE /* LaunchScreen.storyboard in Resources */,
+				1DE3721D2A7C133100062EBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE372242A7C133200062EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE788602A7D7F3A00F1C117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE7886C2A7D7F3E00F1C117 /* Preview Assets.xcassets in Resources */,
+				1DE788692A7D7F3E00F1C117 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A274D2365F47A81D38B90C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTMTecnologia-TesteTecnico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		120B2DEBE027EBD5775BA1A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTMTWatch Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		214E44145BBE0642605DC1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTMTecnologia-TesteTecnico/Pods-MTMTecnologia-TesteTecnico-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTMTecnologia-TesteTecnico/Pods-MTMTecnologia-TesteTecnico-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTMTecnologia-TesteTecnico/Pods-MTMTecnologia-TesteTecnico-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB946B58A300B024DB6FD34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTMTecnologia-TesteTecnicoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C924E23FB5334B9AAF79E7BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTMTWatch Watch App/Pods-MTMTWatch Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTMTWatch Watch App/Pods-MTMTWatch Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTMTWatch Watch App/Pods-MTMTWatch Watch App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE3720C2A7C132E00062EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE372182A7C132E00062EBE /* HomeController.swift in Sources */,
+				1DE788A12A7F00F800F1C117 /* Alerts.swift in Sources */,
+				1D2533432A7C1ECE00FBEEDA /* HomeService.swift in Sources */,
+				1D25333A2A7C17C300FBEEDA /* TabBarController.swift in Sources */,
+				1D6FF8862A7C8B29005AFBA8 /* OnboardingViewModel.swift in Sources */,
+				1D1A59A92A7FC2F5001A6676 /* UIButton+Extension.swift in Sources */,
+				1DE3724D2A7C14FE00062EBE /* HomeView.swift in Sources */,
+				1D2533372A7C162100FBEEDA /* OnboardingView.swift in Sources */,
+				1D1A59AC2A8000D4001A6676 /* UIString+Extension.swift in Sources */,
+				1D2533552A7C559300FBEEDA /* CharacterItemView.swift in Sources */,
+				1D2533352A7C160200FBEEDA /* OnboardingController.swift in Sources */,
+				1DE372442A7C144C00062EBE /* ViewCodeManager.swift in Sources */,
+				1D25334F2A7C53BB00FBEEDA /* CharacterController.swift in Sources */,
+				1D2533522A7C54C900FBEEDA /* CharacterViewModel.swift in Sources */,
+				1D25334A2A7C315E00FBEEDA /* HomeCellViewModel.swift in Sources */,
+				1D6FF88B2A7D2404005AFBA8 /* OnboardingCellViewModel.swift in Sources */,
+				1DE372142A7C132E00062EBE /* AppDelegate.swift in Sources */,
+				1D2533482A7C289E00FBEEDA /* HomeViewModel.swift in Sources */,
+				1D6FF8812A7C8845005AFBA8 /* OnboardingCell.swift in Sources */,
+				1D2533452A7C226000FBEEDA /* HomeModel.swift in Sources */,
+				1D6FF8832A7C8AD2005AFBA8 /* OnboardingDataModel.swift in Sources */,
+				1D25333D2A7C1B4300FBEEDA /* HomeCell.swift in Sources */,
+				1D2533402A7C1DFC00FBEEDA /* UIView+Extension.swift in Sources */,
+				1DE372162A7C132E00062EBE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE372222A7C133200062EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FF8952A7D700C005AFBA8 /* HomeViewModelTests.swift in Sources */,
+				1DA1B95D2A7F15F200DC91DA /* HomeControllerTests.swift in Sources */,
+				1D6FF8912A7D65C1005AFBA8 /* HomeService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE7885E2A7D7F3A00F1C117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE788842A7DB9E700F1C117 /* WebServiceWatch.swift in Sources */,
+				1DE788672A7D7F3B00F1C117 /* HomeView.swift in Sources */,
+				1DE788862A7DBD1E00F1C117 /* CharacterItemScreen.swift in Sources */,
+				1DE788792A7D85A800F1C117 /* CharacterScreen.swift in Sources */,
+				1DE788652A7D7F3B00F1C117 /* MTMTWatchApp.swift in Sources */,
+				1DE788772A7D81E400F1C117 /* HomeModel.swift in Sources */,
+				1DE7887F2A7DAA3B00F1C117 /* AgradecimentosScreen.swift in Sources */,
+				1DE788892A7E856500F1C117 /* Color+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE372282A7C133200062EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE3720F2A7C132E00062EBE /* MTMTecnologia-TesteTecnico */;
+			targetProxy = 1DE372272A7C133200062EBE /* PBXContainerItemProxy */;
+		};
+		1DE7886E2A7D7F3E00F1C117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE788612A7D7F3A00F1C117 /* MTMTWatch Watch App */;
+			targetProxy = 1DE7886D2A7D7F3E00F1C117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DE3721E2A7C133100062EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE3721F2A7C133100062EBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DE372382A7C133200062EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DE372392A7C133200062EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DE3723B2A7C133200062EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D1541F45D69E621E7C2A8B /* Pods-MTMTecnologia-TesteTecnico.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHWFX4B5B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MTMTecnologia-TesteTecnico/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henriquemarques.MTMTecnologia-TesteTecnico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1DE3723C2A7C133200062EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3586C6D75F311948B85D2C27 /* Pods-MTMTecnologia-TesteTecnico.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHWFX4B5B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MTMTecnologia-TesteTecnico/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henriquemarques.MTMTecnologia-TesteTecnico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1DE3723E2A7C133200062EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35807DFF8BA79D899C7BC57A /* Pods-MTMTecnologia-TesteTecnicoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHWFX4B5B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henriquemarques.MTMTecnologia-TesteTecnicoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTMTecnologia-TesteTecnico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MTMTecnologia-TesteTecnico";
+			};
+			name = Debug;
+		};
+		1DE3723F2A7C133200062EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7384C29B7A41BCADE318A13 /* Pods-MTMTecnologia-TesteTecnicoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHWFX4B5B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henriquemarques.MTMTecnologia-TesteTecnicoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTMTecnologia-TesteTecnico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MTMTecnologia-TesteTecnico";
+			};
+			name = Release;
+		};
+		1DE788712A7D7F3E00F1C117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16F4F34F18B17D2B4831312 /* Pods-MTMTWatch Watch App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTMTWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = LHWFX4B5B6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MTMTWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.henriquemarques.MTMTecnologia-TesteTecnico";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henriquemarques.MTMTecnologia-TesteTecnico.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		1DE788722A7D7F3E00F1C117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143688A672F614B397479F87 /* Pods-MTMTWatch Watch App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTMTWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = LHWFX4B5B6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MTMTWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.henriquemarques.MTMTecnologia-TesteTecnico";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henriquemarques.MTMTecnologia-TesteTecnico.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE3720B2A7C132E00062EBE /* Build configuration list for PBXProject "MTMTecnologia-TesteTecnico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE372382A7C133200062EBE /* Debug */,
+				1DE372392A7C133200062EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE3723A2A7C133200062EBE /* Build configuration list for PBXNativeTarget "MTMTecnologia-TesteTecnico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE3723B2A7C133200062EBE /* Debug */,
+				1DE3723C2A7C133200062EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE3723D2A7C133200062EBE /* Build configuration list for PBXNativeTarget "MTMTecnologia-TesteTecnicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE3723E2A7C133200062EBE /* Debug */,
+				1DE3723F2A7C133200062EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE788732A7D7F3E00F1C117 /* Build configuration list for PBXNativeTarget "MTMTWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE788712A7D7F3E00F1C117 /* Debug */,
+				1DE788722A7D7F3E00F1C117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DE372082A7C132E00062EBE /* Project object */;
+}

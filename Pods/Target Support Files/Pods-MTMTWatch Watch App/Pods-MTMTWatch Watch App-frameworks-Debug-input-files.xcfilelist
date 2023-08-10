@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MTMTWatch Watch App/Pods-MTMTWatch Watch App-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage-watchOS/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageSwiftUI/SDWebImageSwiftUI.framework
